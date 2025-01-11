@@ -24,7 +24,7 @@ This project utilizes the following technologies:
 *(You can list your apps here as you build them)*
 
 - **App 1**: Simple BMI Calculator.
-- **App 2**: Brief description of app 2.
+- **App 2**: Calories Calculator.
 - **App 3**: Brief description of app 3.
 - *(etc.)*
 
