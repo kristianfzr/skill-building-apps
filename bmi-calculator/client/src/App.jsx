@@ -10,7 +10,7 @@ function App() {
   
   const calculateBmi = async () => {
     try  {
-      const response = await axios.post('http://localhost:5000/calories_calculator', {
+      const response = await axios.post('http://localhost:5000/bmi', {
         weight: parseFloat(weight),
         height: parseFloat(height)
       })
