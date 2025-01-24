@@ -8,6 +8,15 @@ router.get('/', (req, res) => {
     res.json(tasks)
 })
 
+router.post('/', (req, res) => {
+    const task = req.body
+    tasks.push(task)
+    if(!task) {
+        return res.status(400).json({ error: 'task is required' })
+        }
+    res.status(201).json(task)
+  })
+
 // Get a specific task by id
 router.get('/:id', (req, res) => {
     const task = tasks.find(task => task.id === parseInt(req.params.id))
