@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-backend": "npm run dev --prefix backend",
-    "start-client": "npm run dev --prefix client"
+    "start-client": "npm run dev --prefix client",
+    "start-app": "concurrently \"npm run start-backend\" \"npm run start-client\""
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,8 @@
     "cors": "^2.8.5",
     "fetch": "^1.1.0",
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
