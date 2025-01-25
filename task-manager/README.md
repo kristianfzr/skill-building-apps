@@ -2,6 +2,9 @@
 
 A simple task manager application with a backend built using Express and a frontend built using React and Vite.
 
+![image](https://github.com/user-attachments/assets/86a8a35f-3c26-4429-b18c-a69f4bcf27ae)
+
+
 ## Features
 
 - Add tasks
