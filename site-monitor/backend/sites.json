@@ -1,0 +1,7 @@
+[
+  { "id": 1, "url": "https://example.com" },
+  { "id": 2, "url": "https://jsonplaceholder.typicode.com/posts" },
+  { "id": 3, "url": "https://api.github.com" },
+  { "id": 4, "url": "https://www.google.com" },
+  { "id": 5, "url": "https://www.npmjs.com" }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "site-monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-backend": "npm run start --prefix backend",
+    "start-dev-backend": "npm run dev --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
